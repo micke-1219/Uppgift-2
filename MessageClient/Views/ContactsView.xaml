@@ -1,0 +1,127 @@
+﻿<UserControl x:Class="MessageClient.Views.ContactsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MessageClient.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="subMenuContacts" Grid.Column="0">
+            <ScrollViewer>
+                <StackPanel>
+                    <ToggleButton x:Name="btnContact1" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact1_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse1" Grid.Column="0" Height="30" Width="30" Fill="Yellow"/>
+                            <TextBlock x:Name="contactName1" Text="Contact Name 1" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact2" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact2_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse2" Grid.Column="0" Height="30" Width="30" Fill="Cyan"/>
+                            <TextBlock x:Name="contactName2" Text="Contact Name 2" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact3" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact3_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse3" Grid.Column="0" Height="30" Width="30" Fill="Green"/>
+                            <TextBlock x:Name="contactName3" Text="Contact Name 3" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact4" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact4_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse4" Grid.Column="0" Height="30" Width="30" Fill="Red"/>
+                            <TextBlock x:Name="contactName4" Text="Contact Name 4" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact5" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact5_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse5" Grid.Column="0" Height="30" Width="30" Fill="Turquoise"/>
+                            <TextBlock x:Name="contactName5" Text="Contact Name 5" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact6" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact6_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse6" Grid.Column="0" Height="30" Width="30" Fill="Orange"/>
+                            <TextBlock x:Name="contactName6" Text="Contact Name 6" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact7" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact7_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse7" Grid.Column="0" Height="30" Width="30" Fill="Navy"/>
+                            <TextBlock x:Name="contactName7" Text="Contact Name 7" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact8" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact8_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse8" Grid.Column="0" Height="30" Width="30" Fill="Pink"/>
+                            <TextBlock x:Name="contactName8" Text="Contact Name 8" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact9" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact9_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse9" Grid.Column="0" Height="30" Width="30" Fill="Gold"/>
+                            <TextBlock x:Name="contactName9" Text="Contact Name 9" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                    <ToggleButton x:Name="btnContact10" Background="{x:Null}" Height="60" BorderThickness="0, 0, 0, 1" BorderBrush="LightGray" HorizontalContentAlignment="Left" Click="btnContact10_Click">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Ellipse x:Name="contactEllipse10" Grid.Column="0" Height="30" Width="30" Fill="Blue"/>
+                            <TextBlock x:Name="contactName10" Text="Contact Name 10" FontSize="18" Grid.Column="1" VerticalAlignment="Center" Margin="10, 0, 0, 0"/>
+                        </Grid>
+                    </ToggleButton>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Grid x:Name="detailedViewContacts" Grid.Column="1">
+            <StackPanel>
+                <Ellipse x:Name="ellipse" Height="100" Width="100" Margin="0, 20, 0, 0"/>
+                <TextBlock x:Name="name" FontSize="14" HorizontalAlignment="Center" Margin="0, 10, 0, 0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>
